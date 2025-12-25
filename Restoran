@@ -652,8 +652,8 @@ do{
                 orderMenu(appetizer, &appetizerCount);
                 break;
             case 2:
-                tampilMenu(mainCourse, mainCourse, "MAIN COURSE");
-                orderMenu(mainCourse, &mainCourseCount);
+                tampilMenu(mainCourse, mainCourseCount, "MAIN COURSE");
+                orderMenu(mainCourse, mainCourseCount);
                 break;
             case 3:
                 tampilMenu(beverages, beveragesCount, "BEVERAGES");
